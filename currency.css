@@ -1,0 +1,103 @@
+html,
+body{
+    margin: 0%;
+    padding: 0%;
+   
+    
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+   background: url(wp3328597.jpg)
+ 
+    
+}
+#container{
+    background-color:rgb(50, 77, 20);
+    padding:10px 24px;
+    width: 490px;
+    border-radius:10px;
+ 
+    background:  url(wp2742508.webp);
+    margin-bottom: 100px;
+    
+   
+}
+h1{
+    color:rgb(233, 14, 178) ;
+    text-align: center;
+    margin-bottom: 0.9em;
+  
+}
+.box{
+    width: 100%;
+    display: flex;
+  
+}
+    .box div{
+    width: 100%;
+}
+   
+   
+
+
+select{
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color:coral;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+  }
+   
+
+
+  input{
+    width: 82%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: #cccccc;
+    outline: none;
+    padding: 0 1em;
+  }
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 50%;
+    height: 40px;
+    background-color: lightpink;
+    color: black;
+    cursor: pointer;
+    
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    border-radius:9px ;
+    border: 1px solid lightblue;
+    margin-top: 2em;
+
+}
+
+.leftbox input{
+    background-color: aquamarine;
+}
+#error{
+    margin-top: 15px;
+    color:red;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #cccccc;
+    width: 100%;
+}
